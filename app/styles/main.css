@@ -1,0 +1,31 @@
+body{margin: 0;
+    padding: 0;
+}
+
+#map { position:absolute;
+    height: calc(100% - 52px);
+    width: 100%;
+}
+
+.navbar{
+    z-index: 4000;
+    margin-bottom:0;
+    border-radius:0;
+    box-shadow: 0px 3px 3px #888;
+}
+
+.navbar-brand{
+    color:white;
+    font-weight: 500;
+}
+
+.navbar-brand:hover{
+    color:#f3f3f3;
+    font-weight: 500;
+}
+
+.form-inline{
+    margin-top:7px;
+    margin-right:10px;
+    float:right;
+}
